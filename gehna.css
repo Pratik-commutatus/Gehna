@@ -1,0 +1,872 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav_bar {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgba(62, 63, 67, 0.1);
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+
+.nav_bar_categories {
+    position: relative;
+    margin: 20px 544px 20px 9.72%;
+    margin-right: unset;
+    height: 30px;
+    width: 756px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_bar_categories i {
+    display: none;
+}
+
+.nav_bar_icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 9.72% 25px 270px;
+    margin-left: unset;
+    height: 20px;
+    width: 134px;
+    
+}
+
+.nav_bar_icon {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+
+.gehna_logo {
+    position: relative;
+    height: 30px;
+    width: 111px;
+    background-image: url(/gehna_logo.png);
+    background-size: cover;
+}
+
+.home {
+    height: 19px;
+    width: 43px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.create {
+    height: 19px;
+    width: 49px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px
+}
+
+.products {
+    height: 19px;
+    width: 64px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.bridal {
+    height: 19px;
+    width: 43px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.testimonials {
+    height: 19px;
+    width: 88px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.about {
+    height: 19px;
+    width: 44px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.help {
+    height: 19px;
+    width: 34px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.products-earrings {
+    height: 24px;
+    width: 137px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 9.72%;
+}
+
+.pro {
+    color: rgba(62, 63, 67, 0.5);
+}
+
+.ear {
+    color: #3E3F43;
+}
+
+.f {
+    display: inline;
+}
+
+.postnav {
+    margin-top: 70px;
+    z-index: 1;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    background-color: #FAFAFA;
+}
+
+.remainingpage {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.maincontent {
+    margin-left: 9.72%;
+    margin-right: 9.72%;
+    border-top: 1.5px solid rgb(221, 217, 217);
+    box-shadow: 0 2px 2px 0 rgba(62, 63, 67, 0.1);
+    display: flex;
+}
+
+.sidebar {
+    width: 238px;
+    margin-top: 30px;
+}
+
+.filter {
+    height: 24px;
+    width: 54px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.b1 {
+    height: 85px;
+    margin-top: 30px;
+}
+
+.pur {
+    height: 24px;
+    width: 100%;
+    display: flex;
+}
+
+.bb1 {
+    position: relative;
+    height: 46px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.price {
+    height: 24px;
+    width: 38px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.usd {
+    height: 24px;
+    width: 41px;
+    opacity: 0.5;
+    border-radius: 1px;
+    margin-left: 91px;
+}
+
+.rupees {
+    height: 24px;
+    width: 28px;
+    margin-left: 6px;
+    border: 1px solid #F7C470;
+    border-radius: 1px;
+    box-sizing: border-box;
+    color: rgba(62, 63, 67, 0.8);
+    text-align: center;
+}
+
+.topslider {
+    height: 18px;
+    border-left: 4px solid #3E3F43;
+    border-right: 4px solid #3E3F43;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lineslide {
+    height: 2px;
+    border: 3px solid #F6B74D;
+    opacity: 0.8;
+    box-sizing: border-box;
+}
+
+.bottomslider {
+    position: absolute;
+    height: 23px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.zero {
+    border: 1px solid #979797;
+    height: 23px;
+    width: 70px;
+    font-size: 14px;
+    opacity: 0.5;
+    padding: 1px 3px;
+}
+
+.tenl {
+    border: 1px solid #979797;
+    height: 23px;
+    width: 70px;
+    font-size: 14px;
+    opacity: 0.5;
+    padding: 1px 2px;
+}
+
+.b2 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.heading {
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    height: 24px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.line {
+    position: relative;
+    border: 1px solid #3E3F43;
+    height: 2px;
+    width: 20px;
+}
+
+.checkboxes {
+    width: 175px;
+    margin-top: 15px;
+    padding-top: 1.5px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgba(62, 63, 67, 0.8);
+}
+
+.p {
+    margin-top: 8px;
+}
+
+/* Hide the browser's default checkbox */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #3E3F43;
+    opacity: 0.5;
+    border-radius: 1px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+
+.container .checkmark:after {
+    left: 4px;
+    top: -1px;
+    width: 5px;
+    height: 10px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.v-line {
+    position: absolute;
+    border: 1px solid #3E3F43;
+    height: 20px;
+    width: 2px;
+    top: -10px;
+    left: 8px;
+}
+
+.mainbar {
+    margin-left: 61px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.ES {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftes {
+    height: 24px;
+    width: 164px;
+    opacity: 0.5;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.rightes {
+    height: 36px;
+    width: 102px;
+    color: rgba(62, 63, 67, 0.8);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.mainflexbox {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.r1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.r2 {
+    margin-top: 24px;
+    height: 36.09%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.r3 {
+    margin-top: 24px;
+    height: 36.09%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image1 {
+    width: 65.39%;
+}
+
+.image1text {
+    width: 34.61%;
+}
+
+.image1textcontentbox {
+    margin: 0 auto;
+}
+
+.card {
+    width: 32.48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    position: relative;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+
+.tag1 {
+    margin-left: 15px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    height: 29px;
+    width: 54px;
+    border-radius: 0 0 2px 2px;
+    background-color: #FF9426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag2 {
+    margin-left: 15px;
+    height: 29px;
+    width: 91px;
+    border-radius: 0 0 2px 2px;
+    background-color: #00B78F;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle1 {
+    height: 48px;
+    color: rgba(62, 63, 67, 0.8);
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.middle2 {
+    height: 24px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.bottom {
+    margin-top: 8px;
+    color: #DE6463;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.image1 {
+    background-image: url(/arteum-ro-VJZdxfvFGuo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image1text {
+    padding: 33px 65px;
+}
+
+.image1textcontent1 {
+    height: 54px;
+    width: 217px;
+    height: 38px;
+    width: 217px;
+    color: #3E3F43;
+    font-family: "Nanum Myeongjo";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.image1textcontent1line {
+    margin-top: 14.5px;
+    box-sizing: border-box;
+    height: 1px;
+    width: 47.5px;
+    border: 1px solid #3E3F43;
+    opacity: 0.7;
+}
+
+.image1textcontent2 {
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    color: rgba(62, 63, 67, 0.8);
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.four {
+    background-image: url(/image4.png);
+    background-size: cover;
+}
+
+.five {
+    background-image: url(/image5.png);
+    background-size: cover;
+}
+
+.discount {
+    height: 24px;
+    width: 75px;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.original {
+    position: relative;
+    padding-left: 8px;
+    height: 24px;
+    width: 65px;
+    opacity: 0.5;
+    color: #3E3F43;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 410px;
+    width: 282px;
+    border: 1px solid rgba(62, 63, 67, 0.05);
+    border-radius: 2px;
+    background-color: #D3CCD3;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.newarrival {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D3CCD3;
+    color: #3E3F43;
+    font-family: "Nanum Myeongjo";
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    text-align: center;
+}
+
+.lastimage {
+    /* background-image: url(/image5.png);
+      background-size: cover;
+      background-position: center; */
+    flex: 3;
+    background-size: cover;
+    background-position: center;
+}
+
+.for {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: #D3CCD3;
+    color: #3E3F43;
+    font-family: "Nanum Myeongjo";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: center;
+}
+
+.bottompage {
+    border-radius: 2px;
+    background-color: #FFFFFF;
+}
+
+.emeraldjewellery {
+    margin: 70px 140px;
+    opacity: 0.8;
+    color: #656569;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.emeraldjewellerycontent {
+    color: #9E9FA1;
+    font-family: Lato;
+    font-size: 14px;
+    margin: 15px 140px;
+    height: 396px;
+    margin-bottom: 70px;
+}
+
+.footer {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #3E3F43;
+}
+
+.footercontent {
+    margin: 70 140;
+    display: flex;
+    flex-direction: column;
+    height: 76.58%;
+}
+
+.footercolumns {
+    height: 82.09%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 23.2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.columnhead {
+    margin-bottom: 20px;
+    height: 6.38%;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.columnoption {
+    margin-bottom: 20px;
+    height: 6.38%;
+    opacity: 0.5;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 20px;
+}
+
+.footerline {
+    margin-top: 30px;
+    box-sizing: border-box;
+    height: 1px;
+    border: 1px solid #979797;
+    opacity: 0.3;
+}
+
+.social {
+    margin-top: 30px;
+    height: 4.58%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visit {
+    opacity: 0.8;
+    color: #FFFFFF;
+    font-family: "Nanum Myeongjo";
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: space-between;
+    width: 23.36%;
+}
+
+.socialicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 11.07%;
+}
+
+.socialicon i {
+    color: #FFFFFF;
+}
+
+.mobilebottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 49px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobilebottom div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 1px 0 0 0 rgba(62, 63, 67, 0.05);
+    color: rgba(62, 63, 67, 0.8);
+    font-family: Lato;
+    font-size: 16px;
+}
+
+.mobilebottom {
+    display: none;
+}
+
+@media only screen and (max-width:800px) {
+    .home, .create, .products, .bridal, .testimonials, .about, .help, .profile {
+        display: none;
+    }
+    .nav_bar_categories {
+        justify-content: space-around;
+    }
+    .nav_bar_categories i {
+        display: contents;
+    }
+    .products-earrings {
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .rightes {
+        display: none;
+    }
+    .leftes {
+        display: flex;
+        justify-content: flex-end
+    }
+    .ES {
+        justify-content: center;
+    }
+    .r2 {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 48.735%
+    }
+    .r3 {
+        flex-wrap: wrap;
+    }
+    .bottompage {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+    .mainflexbox {
+        height: 100%;
+       
+       
+    }
+    .maincontent {
+        height: 100%;
+    
+    }
+    .postnav {
+        height: 1880px;
+    }
+    .last {
+        flex-direction: row;
+        width: 100%;
+        height: 87px;
+        margin-top: 20px;
+        order: 1;
+        font-weight: unset;
+    }
+    .newarrival {
+        flex: 1;
+    }
+    .lastimage {
+        flex: 1;
+    }
+    .for {
+        flex: 1;
+    }
+    .nav_bar_categories {
+        justify-content: flex-start
+    }
+    .gehna_logo {
+        margin-left: 15px;
+    }
+    .image1 {
+        width: 119px;
+    }
+    .image1text {
+        flex: 2;
+    }
+    .postnav {
+        margin-top: 18px;
+    }
+    .mobilebottom {
+        display: contents;
+        display: flex;
+    }
+}
